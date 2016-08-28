@@ -1,0 +1,263 @@
+@import 'https://fonts.googleapis.com/css?family=Orbitron';
+@import 'https://fonts.googleapis.com/css?family=Lobster+Two';
+@import 'https://fonts.googleapis.com/css?family=Baloo+Paaji';
+@import 'https://fonts.googleapis.com/css?family=Roboto+Condensed';
+
+body{
+    margin: 0;
+}
+
+div.section1{
+    background-image: url("background-first.jpg");
+    min-height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div.section1 a{
+    transition: 0.2s ease-in-out;
+}
+
+h1#mainheader{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 50px;
+    display: inline;
+    padding-left: 5%;
+    text-shadow: 2px 2px gray;
+}
+div.top{
+    display: inline;
+}
+label.icons{
+    float: right;
+    text-align: right;
+    padding-top: 1%;
+    padding-right: 2%;
+}
+
+
+div.top img{
+     width: 20px;
+    margin-right: 33px;
+ }
+
+div.navbar{
+    margin-top: 3%;
+    margin-left: 25%;
+}
+
+div.navbar ul{
+    display: inline;
+    list-style-type: none;
+}
+
+div.navbar ul li{
+    font-family: 'Baloo Paaji', cursive;
+    font-size: 20px;
+    color: black;
+   display: inline;
+    padding:2% ;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: .5%;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.35s ease-in;
+}
+
+div.navbar ul li:hover{
+    background: lightblue;
+    cursor: pointer;
+    color: brown;
+}
+
+div h1#middleheader{
+    font-family: 'Orbitron', sans-serif;
+    color: darkgoldenrod;
+    font-weight: bolder;
+    font-size: 70px;
+    margin-top:130px ;
+    text-align: center;
+    text-shadow: 3px 3px 5px gray;
+}
+#middlepara{
+    font-family: 'Orbitron', sans-serif;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+a#readmore{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    color: dimgrey;
+    padding: 3%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    transition: 0.35s ease-in;
+    border-radius: 40px;
+    margin-left: 44%;
+    background: lightgreen;
+}
+a#readmore:hover{
+    background: green;
+    color: white;
+
+}
+div.section2{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+}
+div.section2 h1{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 10%;
+}
+
+
+hr#underline {
+    width: 10%;
+    margin: 0 auto;
+    border-color: deeppink;
+    background: deeppink;
+    opacity: 0.7;
+    border-radius: 10px;
+}
+
+div.section2 p{
+    margin-top: 10%;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 2%;
+    margin-right: 2%;
+    float: left;
+    width: 29%;
+    line-height: 22px;
+}
+
+div.section2 a{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    padding: 3%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    transition: 0.35s ease-in;
+    border-radius: 40px;
+    margin-left: 44%;
+    background: lightgreen;
+}
+
+div.section2 a:hover{
+    background: green;
+    color: white;
+}
+
+div.section3{
+    margin: 3%;
+    margin-top: 5%;
+
+}
+
+div.section3 h1{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 10%;
+}
+
+div.section3 hr{
+    width: 10%;
+    margin: 0 auto 3% auto;
+    border-color: deeppink;
+    background: deeppink;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+
+div.innerimgs{
+    position: relative;
+    width: 45%;
+    float: left;
+    margin: 1%;
+    opacity: 0.7;
+    transition: 0.2s ease-in;
+}
+div.innerimgs:hover{
+    opacity: 1;
+}
+
+div.innerimgs div{
+    position: absolute ;
+    top:30%;
+    text-align: center;
+    width: 100%
+}
+
+div.innerimgs div {
+    color: white;
+}
+
+div.innerimgs div h2{
+    font-family: 'Orbitron', sans-serif;
+}
+
+div.section4{
+    margin-top: 60%;
+    padding-left: 3%;
+    position: absolute;
+    background-color: black;
+
+}
+h2{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 9%;
+     color: white;
+}
+div.section4 hr{
+    margin: 0 0 0 2%;
+    border-color: deeppink;
+    background: deeppink;
+    border-radius: 10px;
+    width: 30%;
+
+}
+div.container{
+    width: 30%;
+    padding: 0;
+    margin: 1%;
+    background-color: white;
+    float: left;
+}
+
+div.container img{
+    position: relative;
+    width: 100%;
+}
+div.container p{
+    position: relative;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 2%;
+    padding-bottom: 5%;
+}
+
+div.container .subtitle{
+    font-family: 'Orbitron', sans-serif;
+    padding: 2%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    text-align: left;
+    color: black;
+    font-size: 20px;
+}
